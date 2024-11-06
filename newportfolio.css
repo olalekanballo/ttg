@@ -1,0 +1,100 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+body{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    
+}
+.text{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container-fluid{
+    position: fixed;
+}
+.collapse{
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 10px;
+    
+}
+.content{
+    background: #000000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    /* justify-content: center; */
+}
+.img1{
+    width:300px;
+    border-radius: 300px;
+    border:solid 4px yellow;
+    cursor: pointer;
+    float: right;
+}
+span,h4{
+    color: yellow;
+}
+h1 span{
+    font-size: 70px;
+}
+.d-flex{
+    gap: 30px;
+    color: aliceblue;
+    padding: 20px;
+}
+.d-flex h4{
+    /* color: yellow; */
+}
+.fa-brands{
+    color: aliceblue;
+    height: 20px;
+    font-size:25px;
+    
+}
+.fa-brands:hover{
+    color: yellow;
+    transition: all .50s ease;
+    box-shadow: black 2px 2px 2px 2px;
+}
+.about{
+    color: white;
+    padding-left: 20px;
+}
+.card-img-top{
+    height: 200px;
+    cursor: pointer;
+}
+.card1{
+    border: solid 2px yellow;
+    background: yellowgreen;
+    box-shadow: yellowgreen 2px 2px 2px 2px;
+}
+.card1:hover{
+    transition: all .50s ease;
+    box-shadow: 5px 5px 5px black;
+    /* transform: translateY(-5px) scale(1.1); */
+    transform: rotate(20deg);
+    /* transform: rotateY(20deg); */
+    
+    
+}
+.size{
+    color: white;
+    text-align: center;
+}
+.place{
+    width: 400px;
+}
+.brn{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+#me{
+    cursor: pointer;
+}
+
